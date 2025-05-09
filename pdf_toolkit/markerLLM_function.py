@@ -40,8 +40,7 @@ def markerLLM_extractor(pdf_path: str) -> List[Dict[str, Any]]:
     config = {
         "output_format": "json",
         "use_llm": True,
-        "disable_image_extraction": True,
-        "gemini_api_key": "..."
+        "disable_image_extraction": True
     }
     config_parser = ConfigParser(config)
 
